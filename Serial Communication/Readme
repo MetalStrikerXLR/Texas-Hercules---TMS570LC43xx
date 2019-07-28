@@ -1,0 +1,11 @@
+A header file with serial communication functions simmilar to arduino. Just insert the header file in your project, #include it in your code and call the desired functions
+
+Function List:
+
+*Serialbegin(baudrate)
+*Serialprint(String) -> double quotations necessary
+*Serialprintln(String) -> double quotations necessary
+*Serialprint_i(integer value)
+*Serialprint_f(float value)
+
+I wanted to overload integer/float/string functions, but couldnt seem to do it. no idea why. If anyone has any idea plz do share.
