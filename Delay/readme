@@ -1,5 +1,5 @@
 This header file contains a (unprofessional) delay function. I coded the function based on the clock speed of 300MHz of TMS570LC43xx.
-I calculated a time scale and multiply it by the ammount of milliseconds we require and just call a for loop to count down the 
+I calculated a time scale and multiply it by the ammount of milliseconds we require and just call a while loop to count down the 
 final time cycle.
 
 Its not exactly accurate but does the job. I tested it for 1 sec delay and the results were acceptable.
